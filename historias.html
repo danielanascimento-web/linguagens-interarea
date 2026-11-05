@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histórias | Camaçari pelas Vozes das Mulheres Negras</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header class="topo">
+    <a class="marca" href="index.html#inicio">VOZES <span>NEGRAS</span></a>
+    <button class="menu-btn" id="menuBtn" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">☰</button>
+    <nav id="menu">
+        <a href="index.html">O projeto</a>
+        <a href="historias.html" aria-current="page">Histórias</a>
+        <a href="territorio.html">Território</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero pagina-hero" id="inicio">
+        <div class="hero-conteudo">
+            <p class="etiqueta">02 — MULHERES NEGRAS NA LITERATURA</p>
+            <h1>Vozes que <em>escrevem e transformam.</em></h1>
+            <p class="hero-texto">Histórias de resistência, empoderamento e criação que ampliam os caminhos da literatura brasileira.</p>
+        </div>
+        <div class="hero-selo">ESCRITA ✳ MEMÓRIA ✳ PROTAGONISMO</div>
+    </section>
+
+    <section class="secao biografias" aria-labelledby="titulo-biografias">
+        <p class="etiqueta">BIOGRAFIAS E LITERATURA</p>
+        <h2 id="titulo-biografias">Escritas que <em>abrem caminhos.</em></h2>
+        <p class="introducao-biografias">Conheça as mulheres e os grupos apresentados no trabalho: escritoras, lideranças e mulheres que preservam a cultura de Camaçari.</p>
+
+        <div class="carrossel-obras">
+            <button class="controle-obras" id="obraAnterior" type="button" aria-label="Mostrar obra anterior" disabled>←</button>
+            <div class="obras-faixa" id="obrasFaixa" tabindex="0" role="region" aria-label="Carrossel de capas de obras">
+                <a class="obra-imagem" href="https://openlibrary.org/search?q=Ursula+Maria+Firmina+dos+Reis" target="_blank" rel="noopener noreferrer" aria-label="Abrir informações sobre Úrsula, de Maria Firmina dos Reis">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Ursula_Maria_Firmina_dos_Reis.jpg" alt="Folha de rosto da primeira edição de Úrsula, de Maria Firmina dos Reis" loading="lazy">
+                </a>
+                <a class="obra-imagem" href="https://openlibrary.org/search?q=Quarto+de+Despejo+Carolina+Maria+de+Jesus" target="_blank" rel="noopener noreferrer" aria-label="Abrir informações sobre Quarto de Despejo, de Carolina Maria de Jesus">
+                    <img src="https://covers.openlibrary.org/b/id/295782-L.jpg" alt="Capa de Quarto de Despejo, de Carolina Maria de Jesus" loading="lazy">
+                </a>
+                <a class="obra-imagem" href="https://openlibrary.org/search?q=Poncia+Vicencio+Conceicao+Evaristo" target="_blank" rel="noopener noreferrer" aria-label="Abrir informações sobre Ponciá Vicêncio, de Conceição Evaristo">
+                    <img src="https://covers.openlibrary.org/b/id/5352498-L.jpg" alt="Capa de Ponciá Vicêncio, de Conceição Evaristo" loading="lazy">
+                </a>
+                <a class="obra-imagem" href="https://openlibrary.org/search?q=Olhos+d%27Agua+Conceicao+Evaristo" target="_blank" rel="noopener noreferrer" aria-label="Abrir informações sobre Olhos d'Água, de Conceição Evaristo">
+                    <img src="https://covers.openlibrary.org/b/id/10833000-L.jpg" alt="Capa de Olhos d'Água, de Conceição Evaristo" loading="lazy">
+                </a>
+            </div>
+            <button class="controle-obras" id="proximaObra" type="button" aria-label="Mostrar próxima obra">→</button>
+        </div>
+        <p class="contador-obras" id="contadorObras" aria-live="polite">Obra 1 de 4</p>
+
+        <div class="lista-biografias">
+            <article class="biografia">
+                <figure class="foto-biografia">
+                    <img src="assets/maria-felipa-cartaz.png" alt="Ilustração de Maria Felipa recortada do cartaz do trabalho" loading="lazy">
+                    <figcaption>Ilustração recortada do cartaz enviado pelo grupo.</figcaption>
+                </figure>
+                <div class="texto-biografia">
+                    <p class="etiqueta">LUTA E MEMÓRIA</p>
+                    <h3>Maria Felipa de Oliveira</h3>
+                    <p>Maria Felipa é lembrada como uma mulher negra, marisqueira e liderança da Ilha de Itaparica, na Bahia. Sua memória está ligada à luta pela Independência da Bahia, em 1823. Relatos populares contam que ela reuniu mulheres e homens da ilha para resistir às tropas portuguesas. Sua trajetória representa a força e a participação das mulheres negras na história do país.</p>
+                </div>
+            </article>
+
+            <article class="biografia">
+                <figure class="foto-biografia">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Maria_firmina.jpg" alt="Busto memorial de Maria Firmina dos Reis na Praça do Pantheon, em São Luís" loading="lazy">
+                    <figcaption>Busto memorial em São Luís; não é uma fotografia dela. <a href="https://commons.wikimedia.org/wiki/File:Maria_firmina.jpg" target="_blank" rel="noopener noreferrer">Fonte e licença da imagem</a></figcaption>
+                </figure>
+                <div class="texto-biografia">
+                    <p class="etiqueta">ESCRITA ABOLICIONISTA</p>
+                    <h3>Maria Firmina dos Reis</h3>
+                    <p>Nascida no Maranhão em 1822, Maria Firmina dos Reis foi escritora, professora e abolicionista. Em 1859 publicou <em>Úrsula</em>, romance que denuncia a escravidão e dá voz a personagens negros. Também escreveu contos, poemas e o conto abolicionista <em>A escrava</em>. Sua obra abriu espaço para outras perspectivas na literatura brasileira.</p>
+                </div>
+            </article>
+
+            <article class="biografia">
+                <figure class="foto-biografia">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/ConceicaoEvaristo_%28cropped%29.jpg" alt="A escritora Conceição Evaristo durante um debate no Festival Latinidades" loading="lazy">
+                    <figcaption>Foto: Fora do Eixo. <a href="https://commons.wikimedia.org/wiki/File:ConceicaoEvaristo_(cropped).jpg" target="_blank" rel="noopener noreferrer">Fonte e licença da imagem</a></figcaption>
+                </figure>
+                <div class="texto-biografia">
+                    <p class="etiqueta">ESCREVIVÊNCIA</p>
+                    <h3>Conceição Evaristo</h3>
+                    <p>Nascida em Belo Horizonte, em 1946, Conceição Evaristo é escritora e professora. Em seus romances, contos e poemas, aborda memória, identidade, racismo e as experiências das mulheres negras. A autora criou o conceito de “escrevivência”, que aproxima escrita, vivência e memória coletiva. Entre suas obras estão <em>Ponciá Vicêncio</em> e <em>Olhos d'Água</em>.</p>
+                </div>
+            </article>
+
+            <article class="biografia">
+                <figure class="foto-biografia">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Carolina_Maria_de_Jesus%2C_1960_%28cropped%29.png" alt="Carolina Maria de Jesus em fotografia de 1960, do acervo do Correio da Manhã" loading="lazy">
+                    <figcaption>Acervo do Correio da Manhã / Arquivo Nacional. <a href="https://commons.wikimedia.org/wiki/File:Carolina_Maria_de_Jesus,_1960_(cropped).png" target="_blank" rel="noopener noreferrer">Fonte e licença da imagem</a></figcaption>
+                </figure>
+                <div class="texto-biografia">
+                    <p class="etiqueta">LITERATURA E DENÚNCIA SOCIAL</p>
+                    <h3>Carolina Maria de Jesus</h3>
+                    <p>Nascida em Minas Gerais, em 1914, Carolina Maria de Jesus foi escritora e uma das principais autoras negras do Brasil. Morando na favela do Canindé, em São Paulo, registrou em diários a vida cotidiana, a fome e a desigualdade. Seu livro <em>Quarto de Despejo: Diário de uma Favelada</em>, publicado em 1960, alcançou leitores em vários países e tornou sua voz incontornável na literatura brasileira.</p>
+                </div>
+            </article>
+
+            <article class="biografia">
+                <figure class="foto-biografia">
+                    <img src="assets/clara-pinto-cartaz.png" alt="Imagem de Clara Pinto recortada do cartaz do trabalho" loading="lazy">
+                    <figcaption>Imagem recortada do cartaz enviado pelo grupo.</figcaption>
+                </figure>
+                <div class="texto-biografia">
+                    <p class="etiqueta">EDUCAÇÃO, LIDERANÇA E COMUNIDADE</p>
+                    <h3>Clara Pinto</h3>
+                    <p>No trabalho, Clara Pinto é apresentada por sua atuação ligada à educação, à liderança e à comunidade. Esses eixos destacam a importância de mulheres que compartilham conhecimento, mobilizam pessoas e contribuem para a vida coletiva de Camaçari.</p>
+                </div>
+            </article>
+
+            <article class="biografia">
+                <figure class="foto-biografia">
+                    <img src="assets/stefany-oliveira-cartaz.png" alt="Imagem de Stefany Oliveira recortada do cartaz do trabalho" loading="lazy">
+                    <figcaption>Imagem recortada do cartaz enviado pelo grupo.</figcaption>
+                </figure>
+                <div class="texto-biografia">
+                    <p class="etiqueta">JUVENTUDE, CULTURA E REPRESENTATIVIDADE</p>
+                    <h3>Stefany Oliveira</h3>
+                    <p>No trabalho, Stefany Oliveira é apresentada a partir da juventude, da cultura e da representatividade. Sua presença reforça a importância de jovens mulheres negras ocuparem espaços e contribuírem para as expressões culturais da cidade.</p>
+                </div>
+            </article>
+
+            <article class="biografia">
+                <figure class="foto-biografia">
+                    <img src="assets/beijuzeiras-cordoaria-cartaz.png" alt="Beijuzeiras da Cordoaria preparando beiju, imagem recortada do cartaz do trabalho" loading="lazy">
+                    <figcaption>Imagem recortada do cartaz enviado pelo grupo.</figcaption>
+                </figure>
+                <div class="texto-biografia">
+                    <p class="etiqueta">CULTURA, TRABALHO E TRADIÇÃO</p>
+                    <h3>Beijuzeiras da Cordoaria</h3>
+                    <p>As beijuzeiras da Cordoaria mantêm vivo um saber ligado à mandioca e à produção do beiju. O cartaz apresenta etapas desse trabalho — ralar a mandioca, escorrer e peneirar a massa e assá-la na chapa — e destaca uma tradição de trabalho e conhecimento transmitida entre gerações.</p>
+                </div>
+            </article>
+
+            <article class="biografia">
+                <figure class="foto-biografia">
+                    <img src="assets/mulheres-camacari-cartaz.png" alt="Colagem de imagens e mapa de Camaçari representando mulheres que moldaram a cidade, recortada do cartaz do trabalho" loading="lazy">
+                    <figcaption>Colagem recortada do cartaz enviado pelo grupo.</figcaption>
+                </figure>
+                <div class="texto-biografia">
+                    <p class="etiqueta">MEMÓRIA E TRANSFORMAÇÃO</p>
+                    <h3>Mulheres que moldaram Camaçari</h3>
+                    <p>Esta parte celebra mulheres locais e suas contribuições para a cidade. O cartaz propõe registrar histórias de transformação, mas não identifica nomes específicos. Por isso, este espaço convida a turma a incluir relatos e nomes confirmados por pesquisa ou entrevista, sem atribuir trajetórias a pessoas sem fonte.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="secao mulheres-camacari">
+        <p class="etiqueta">MEMÓRIA LOCAL</p>
+        <h2>Mulheres que moldaram <em>Camaçari.</em></h2>
+        <p>Camaçari também é construída pelas mãos, ideias e palavras das mulheres negras que vivem aqui. Na educação, na cultura, no trabalho e na organização comunitária, elas compartilham saberes, fortalecem suas comunidades e mantêm vivas histórias que nem sempre aparecem nos livros.</p>
+        <p>Para completar esta memória local, acrescentem nomes, relatos e contribuições confirmados em pesquisas ou entrevistas. Assim, cada história será contada com respeito e sem inventar informações.</p>
+    </section>
+
+    <section class="secao conclusao">
+        <p class="etiqueta">04 — CONCLUSÕES DA PESQUISA</p>
+        <h2>Escrever também é<br><em>transformar o mundo.</em></h2>
+        <p class="conclusao-texto">As trajetórias dessas mulheres mostram como a escrita preserva memórias, denuncia injustiças e cria novas possibilidades. Valorizar a literatura negra é reconhecer o protagonismo das mulheres negras e ampliar as histórias que são lidas, ensinadas e lembradas.</p>
+    </section>
+
+    <nav class="navegacao-paginas" aria-label="Navegação entre páginas">
+        <p class="progresso-paginas">Página 2 de 3</p>
+        <div class="links-paginas">
+            <a class="botao-pagina anterior" href="index.html" aria-label="Página anterior: O projeto">
+                <span class="seta-pagina" aria-hidden="true">←</span>
+                <span>Página anterior</span>
+                <strong>O projeto</strong>
+            </a>
+            <a class="botao-pagina proxima" href="territorio.html" aria-label="Próxima página: Território">
+                <span>Próxima página</span>
+                <strong>Território</strong>
+                <span class="seta-pagina" aria-hidden="true">→</span>
+            </a>
+        </div>
+    </nav>
+</main>
+
+<footer>
+    <a class="marca" href="index.html#inicio">VOZES <span>NEGRAS</span></a>
+    <p>Projeto escolar — Camaçari pelas Vozes das Mulheres Negras</p>
+    <a href="index.html#inicio" class="voltar">Voltar ao projeto ↑</a>
+</footer>
+</body>
+</html>
